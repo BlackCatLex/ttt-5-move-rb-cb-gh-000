@@ -11,7 +11,7 @@ def input_to_index(player_choice)
   player_choice.to_i - 1
 end
 
-def move(board, index, value=' ')
+def move(board, index, value="X")
   board[index] = value
   board
 end
